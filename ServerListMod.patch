@@ -1,0 +1,15 @@
+Index: src/main/java/cey.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/cey.java	(date 1444912160000)
++++ src/main/java/cey.java	(revision )
+@@ -20,6 +20,7 @@
+             this.c.clear();
+             fn var1 = fz.a(new File(this.b.v, "servers.dat"));
+             if(var1 == null) {
++                this.c.addAll(GS_Servers.loadDefaultServers());
+                 return;
+             }
+ 
